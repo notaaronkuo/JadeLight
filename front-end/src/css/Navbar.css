@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+.top-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0 0 10px;
+    color: aliceblue;
+    padding: 0;
+}
+
+.title:hover,
+.navbar p:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+    width: 12em;
+}
+
+#signup {
+    border: 1px solid green;
+    border-radius: 25px;
+    color: green;
+    background-color: white;
+    padding: 5px;
+    /* border-; */
+}

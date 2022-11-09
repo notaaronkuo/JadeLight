@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-color: #54784B;
+    color: black;
+}
+
+header {
+    margin-top: -20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+footer {
+    color: white;
+    margin: auto;
+    /* position: absolute; */
+    /* margin-left: 40vw; */
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 5.5rem;
+    /* Footer height */
+}
+
+a {
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.header {
+    background-color: #54784B;
+    padding-bottom: 10px;
+}
+
+.placeholder {
+    padding: 20px;
+    color: aliceblue
+}
+
+.loginBody {
+    padding: 20px;
+}
+
+.registerBody {
+    padding: 20px;
+}
+
+.logoutBody {
+    color: aliceblue
+}

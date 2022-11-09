@@ -1,0 +1,26 @@
+.home-layout {
+    display: flex;
+}
+
+.left-part {
+    width: 30%;
+    border-right: 5px solid white;
+}
+
+.left-part h3 {
+    margin-top: 100px;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+#submit-payment {
+    width: 100px;
+    /* border: 1px solid white; */
+    border-radius: 25px;
+    background-color: darkblue;
+    color: lavenderblush;
+    font-family: "Roboto Light";
+    font-size: large;
+    padding: 15px 20px;
+    margin-top: 300px;
+}

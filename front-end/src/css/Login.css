@@ -1,0 +1,127 @@
+h1 {
+    text-align: center;
+    padding: 50px;
+    color: black;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.login,
+.registration,
+.payments {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto auto;
+    box-sizing: border-box;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.842);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login h2,
+.login label,
+.registration h2,
+.registration label,
+.payments h2,
+.registration label {
+    color: black;
+    margin: 0 auto 50px;
+}
+
+.registration h3 {
+    color: red;
+    font-weight: 100;
+}
+
+.registration {
+    height: 600px;
+    width: 500px;
+}
+
+.payments {
+    height: 600px;
+}
+
+.login label,
+.registration label,
+.payments label {
+    text-align: right;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-weight: 100;
+    padding: 0;
+}
+
+.registration label {
+    margin-right: 20px;
+}
+
+.login input,
+.registration input,
+.payments input {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 10px;
+    padding: 5px;
+}
+
+#confirm-password label {
+    margin-left: -60px;
+}
+
+.payments input {
+    padding: 5px;
+    line-height: 30px;
+    margin: 3px;
+}
+
+#i-to label {
+    margin-right: 15px;
+}
+
+#i-from label {
+    margin-left: -5px;
+}
+
+#i-amount label {
+    margin-left: -20px;
+}
+
+#i-type {
+    margin-left: -45px;
+}
+
+.login button,
+.registration button,
+.payments button {
+    margin: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: lavenderblush;
+    font-family: "Roboto Light";
+    font-size: large;
+}
